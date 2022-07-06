@@ -8,8 +8,17 @@ var Transform = require('stream').Transform;
 
 var app = express();
 
+function validateRequest(data) {
+	//console.log(data.url)
+	//console.log(data.headers)
+	
+}
+
 var cacConfig = {
     prefix: '/proxy/',
+	//host: "www.xvideos.com",
+	
+	standardMiddleware: true
 };
 
 
